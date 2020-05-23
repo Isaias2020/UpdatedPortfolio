@@ -53,15 +53,25 @@ img {
   margin-top: 20px;
   margin-left: 25px;
   margin-right: auto;
+  text-align: center;
+}
+
+.contact {
+  background-color:#52297A;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: auto;
+  text-align: center;
 }
 
 .card-header {
-  color: gray;
+  color: white;
+  text-align: center;
 }
 
-.card-title {
+/* .card-title {
   color: gray;
-}
+} */
 
 .card-body {
   background-color:black;
@@ -104,13 +114,38 @@ img {
     border-radius: 50%;
   }
   
-.fa-linkedin {
+/* .fa-linkedin {
     background: #007bb5;
     color: white;
-  }
+  } */
 
 footer {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }  
+
+.contact-body {
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: left;
+}
+
+.contact-btn { 
+  background-color: #52297A;
+  color: white;
+}
+
+.form-group {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
