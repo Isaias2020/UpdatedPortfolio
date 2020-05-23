@@ -56,22 +56,10 @@ img {
   text-align: center;
 }
 
-.contact {
-  background-color:#52297A;
-  margin-top: 20px;
-  margin-left: 25px;
-  margin-right: auto;
-  text-align: center;
-}
-
 .card-header {
   color: white;
   text-align: center;
 }
-
-/* .card-title {
-  color: gray;
-} */
 
 .card-body {
   background-color:black;
@@ -114,11 +102,6 @@ img {
     border-radius: 50%;
   }
   
-/* .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  } */
-
 footer {
   margin-top: 20px;
   display: flex;
@@ -126,6 +109,7 @@ footer {
   justify-content: center;
 }  
 
+/* Section for Input Form */
 .contact-body {
   margin-top: 20px;
   border-radius: 20px;
@@ -133,8 +117,8 @@ footer {
   background-color: black;
   color: white;
   margin-top: 20px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
 
@@ -144,8 +128,34 @@ footer {
 }
 
 .form-group {
+  font-family: monospace;
+  font-size: large;
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
+}
+
+/* Section for Social Media Icons */
+.contact {
+  font-family: monospace;
+  justify-content: center;
+  background-color:#52297A;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.phone-icon {
+  color: white;
+}
+
+.envelope-icon {
+  color: white;
+}
+
+.pdf-icon {
+  color: white;
 }
