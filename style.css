@@ -76,6 +76,7 @@ img {
 .btn { 
   background-color: #52297A;
   color: white;
+  font-family: monospace;
 }
 
 .float-right {
@@ -128,11 +129,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-}
-
-.contact-btn { 
-  background-color: #52297A;
-  color: white;
 }
 
 .form-group {
