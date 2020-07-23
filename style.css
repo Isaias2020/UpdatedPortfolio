@@ -94,15 +94,6 @@ img {
     width:20%;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 40px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-
 .indexfooter {
   background-color: #52297A;
   position: fixed;
@@ -118,17 +109,19 @@ img {
   justify-content: left;
 }  
 
+/*================ STYLING FOR CONTACT PAGE ===================*/
+
 /* Section for Input Form */
 .contact-body {
   margin-top: 20px;
+  padding: 0px;
+  height: fit-content;
   border-radius: 20px;
   border: 1px solid white;
   background-color: black;
   color: white;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .form-group {
@@ -138,6 +131,14 @@ img {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
+}
+
+.contact-footer {
+width: auto;
+text-align: center;
+font-weight: bold;
+font-size: 15px;
+margin: auto;
 }
 
 /* Section for Social Media Icons */
@@ -162,4 +163,113 @@ img {
 
 .pdf-icon {
   color: white;
+}
+
+.fa-map-marker {
+  color: white;
+}
+
+.contact-footer .footer-left, 
+.contact-footer .footer-center,
+.contact-footer .footer-right {
+  display: inline;
+  vertical-align: top;
+  margin-right: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-footer .About span {
+  display: block;
+  color:white;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.contact-footer .contact-icons {
+  margin-top: 40px;
+}
+
+.contact-body .contact-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  line-height: 38px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-footer .footer-center i {
+  font-size: 19px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.contact-footer .footer-center i.fa-envelope {
+  font-size: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.contact-footer .footer-center p {
+  display: inline-block;
+  font-size: 23px;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.contact-footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 0;
+  margin: 5px;
+}
+
+.contact-footer .footer-center p a {
+  color: white;
+}
+
+.contact-footer .footer-right {
+  width: 50%;
+}
+
+.contact-footer h2 {
+  color: white;
+  font-weight: bold;
+  margin: auto;
+}
+
+.contact-footer .Menu {
+  color: white;
+  margin: 20px 0 12px; 
+  padding: 0;
+  font-size: 25px;
+}
+
+.contact-footer .Menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: underline;
+  color: white;
+}
+
+.contact-footer .Menu a:hover {
+  color: grey;
+}
+
+.contact-footer .Myname {
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
 }
