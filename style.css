@@ -227,6 +227,13 @@ margin: auto;
   margin: 0;
 }
 
+/* For small phone screens of 320px max */
+@media (max-width: 320px) {
+  .contact-footer .footer-center p {
+    font-size: 15px;
+  }
+}
+
 .contact-footer .footer-center p span {
   display: block;
   font-weight: normal;
